@@ -1,0 +1,5 @@
+Day 1 
+	一開始分為 CategoryController ProductController => 藉由 CategoryRepository、ProductRepository去實作CRUD，CategoryRepository、ProductRepository再去實作IcategoryRepository、IproductRepository兩個介面
+
+Day 2 
+	
