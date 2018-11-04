@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace WebApplication1
+namespace MVC_Repository_Web
 {
     public class FilterConfig
     {

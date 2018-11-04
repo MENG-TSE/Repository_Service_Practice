@@ -1,18 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using WebApplication1.Models;
-using WebApplication1.Models.Interface;
+using MVC_Repository_Models;
+using MVC_Repository_Models.Repository;
 using WebApplication1.Models.Repository;
 
-namespace WebApplication1.Controllers
+namespace MVC_Repository_Web.Controllers
 {
     public class ProductController : Controller
     {
-        private IRepository<Products> productRepository;
-        private IRepository<Categories> categoryRepository;
+        private ProductRepository productRepository;
+        private CategoryReopsitory categoryRepository;
 
         public IEnumerable<Categories> Categories
         {
@@ -24,11 +22,11 @@ namespace WebApplication1.Controllers
 
         public ProductController()
         {
-            this.productRepository = new GenericRepository<Products>();
-            this.categoryRepository = new GenericRepository<Categories>();
+            this.productRepository = new ProductRepository();
+            this.categoryRepository = new CategoryReopsitory();
         }
         // GET: Product
-        public ActionResult Index()
+        public ActionResult Index(string category = "all")
         {
             var products = productRepository.GetAll()
                 .OrderByDescending(x => x.ProductID)
@@ -39,8 +37,9 @@ namespace WebApplication1.Controllers
         // GET: Product/Details/5
         public ActionResult Details(int id = 0)
         {
-            Products product = productRepository.Get(x => x.ProductID == id);
-            if(product == null)
+            //Products product = productRepository.Get(x => x.ProductID == id);
+            Products product = productRepository.GetByID(id);
+            if (product == null)
             {
                 return HttpNotFound();
             }
@@ -70,8 +69,9 @@ namespace WebApplication1.Controllers
         // GET: Product/Edit/5
         public ActionResult Edit(int id = 0)
         {
-            Products product = this.productRepository.Get(x => x.ProductID == id);
-            if(product == null)
+            //Products product = this.productRepository.Get(x => x.ProductID == id);
+            Products product = this.productRepository.GetByID(id);
+            if (product == null)
             {
                 return HttpNotFound();
             }
@@ -95,8 +95,9 @@ namespace WebApplication1.Controllers
         // GET: Product/Delete/5
         public ActionResult Delete(int id = 0)
         {
-            Products product = this.productRepository.Get(x => x.ProductID == id);
-            if(product == null)
+            //Products product = this.productRepository.Get(x => x.ProductID == id);
+            Products product = this.productRepository.GetByID(id);
+            if (product == null)
             {
                 return HttpNotFound();
             }
@@ -107,7 +108,9 @@ namespace WebApplication1.Controllers
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {
-            Products product = this.productRepository.Get(x => x.ProductID == id);
+            //Products product = this.productRepository.Get(x => x.ProductID == id);
+            Products product = this.productRepository.GetByID(id);
+
             this.productRepository.Delete(product);
             return RedirectToAction("Index");
         }

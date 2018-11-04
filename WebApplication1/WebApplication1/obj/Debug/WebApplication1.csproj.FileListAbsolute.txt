@@ -1,0 +1,2 @@
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
