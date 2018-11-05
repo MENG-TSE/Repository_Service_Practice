@@ -16,10 +16,10 @@ namespace WebApplication1.Models.Repository
             set;
         }
 
-        public GenericRepository()
-            :this(new Service_repository_practiceEntities())
-        {
-        }
+        //public GenericRepository()
+        //    :this(new Service_repository_practiceEntities())
+        //{
+        //}
 
         public GenericRepository(DbContext context)
         {

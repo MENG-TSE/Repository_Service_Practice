@@ -1,6 +1,12 @@
+using MVC_Repository_Models;
+using MVC_Repository_Service;
+using MVC_Repository_Service.Interface;
 using System;
 
 using Unity;
+using Unity.Injection;
+using WebApplication1.Models.Interface;
+using WebApplication1.Models.Repository;
 
 namespace MVC_Repository_Web
 {
@@ -42,6 +48,16 @@ namespace MVC_Repository_Web
 
             // TODO: Register your type's mappings here.
             // container.RegisterType<IProductRepository, ProductRepository>();
+
+            var dbContext = new Service_repository_practiceEntities();
+
+            //Repository
+            container.RegisterType<IRepository<Categories>, GenericRepository<Categories>>(new InjectionConstructor(dbContext));
+            container.RegisterType<IRepository<Products>, GenericRepository<Products>>(new InjectionConstructor(dbContext));
+
+            //Service
+            container.RegisterType<ICategoryService, CategoryService>();
+            container.RegisterType<IProductService, ProductService>();
         }
     }
 }

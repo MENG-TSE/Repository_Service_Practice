@@ -142,3 +142,9 @@ C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplicat
 C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplication1\obj\Debug\MVC_Repository_Web.csproj.CopyComplete
 C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplication1\obj\Debug\MVC_Repository_Web.dll
 C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplication1\obj\Debug\MVC_Repository_Web.pdb
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplication1\bin\MVC_Repository_Service.dll
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplication1\bin\Unity.Abstractions.dll
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplication1\bin\Unity.Container.dll
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplication1\bin\Unity.Mvc.dll
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplication1\bin\WebActivatorEx.dll
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\WebApplication1\bin\MVC_Repository_Service.pdb

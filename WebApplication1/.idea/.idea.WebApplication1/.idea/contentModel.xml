@@ -48,6 +48,7 @@
         </e>
         <e p="MVC_Repository_Service.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="ProductService.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
@@ -61,6 +62,8 @@
           <e p="IdentityConfig.cs" t="Include" />
           <e p="RouteConfig.cs" t="Include" />
           <e p="Startup.Auth.cs" t="Include" />
+          <e p="UnityConfig.cs" t="Include" />
+          <e p="UnityMvcActivator.cs" t="Include" />
           <e p="WebApiConfig.cs" t="Include" />
         </e>
         <e p="ApplicationInsights.config" t="Include" />

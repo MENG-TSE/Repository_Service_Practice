@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Web.Mvc;
 using MVC_Repository_Models;
-using MVC_Repository_Models.Repository;
+//using MVC_Repository_Models.Repository;
 using MVC_Repository_Service;
 using MVC_Repository_Service.Interface;
 using WebApplication1.Models.Repository;
@@ -14,27 +14,27 @@ namespace MVC_Repository_Web.Controllers
         //private IProductRepository productRepository;
         //private ICategoryReopsitory categoryRepository;
 
-        private IProductService productService;
-        private ICategoryService categoryService;
+        private IProductService _productService;
+        private ICategoryService _categoryService;
 
 
         public IEnumerable<Categories> Categories
         {
             get
             {
-                return categoryService.GetAll();
+                return _categoryService.GetAll();
             }
         }
 
-        public ProductController()
+        public ProductController(IProductService productService,ICategoryService categoryService)
         {
-            this.productService = new ProductService();
-            this.categoryService = new CategoryService();
+            this._productService = productService;
+            this._categoryService = categoryService;
         }
         // GET: Product
         public ActionResult Index(string category = "all")
         {
-            var products = productService.GetAll()
+            var products = _productService.GetAll()
                 .OrderByDescending(x => x.ProductID)
                 .ToList();
             return View(products);
@@ -44,7 +44,7 @@ namespace MVC_Repository_Web.Controllers
         public ActionResult Details(int? id,string category)
         {
             //Products product = productRepository.Get(x => x.ProductID == id);
-            Products product = productService.GetByID(id.Value);
+            Products product = _productService.GetByID(id.Value);
             if (product == null)
             {
                 return HttpNotFound();
@@ -66,7 +66,7 @@ namespace MVC_Repository_Web.Controllers
         {
             if(ModelState.IsValid)
             {
-                this.productService.Create(products);
+                this._productService.Create(products);
                 return RedirectToAction("Index", new { Category = category });
             }
             ViewBag.CategoryID = new SelectList(this.Categories,"CategoryID","CategoryName", products.CategoryID);
@@ -77,7 +77,7 @@ namespace MVC_Repository_Web.Controllers
         public ActionResult Edit(int? id, string category)
         {
             //Products product = this.productRepository.Get(x => x.ProductID == id);
-            Products product = this.productService.GetByID(id.Value);
+            Products product = this._productService.GetByID(id.Value);
             if (product == null)
             {
                 return HttpNotFound();
@@ -93,7 +93,7 @@ namespace MVC_Repository_Web.Controllers
         {
             if(ModelState.IsValid)
             {
-                this.productService.Update(products);
+                this._productService.Update(products);
                 return RedirectToAction("Index", new { Category = category });
             }
             ViewBag.CategoryID = new SelectList(this.Categories, "CategoryID", "CategoryName", products.CategoryID);
@@ -106,7 +106,7 @@ namespace MVC_Repository_Web.Controllers
             if (!id.HasValue) return RedirectToAction("index");
 
             //Products product = this.productRepository.Get(x => x.ProductID == id);
-            Products product = this.productService.GetByID(id.Value);
+            Products product = this._productService.GetByID(id.Value);
             if (product == null)
             {
                 return HttpNotFound();
@@ -119,9 +119,9 @@ namespace MVC_Repository_Web.Controllers
         public ActionResult DeleteConfirmed(int id, string category)
         {
             //Products product = this.productRepository.Get(x => x.ProductID == id);
-            Products product = this.productService.GetByID(id);
+            Products product = this._productService.GetByID(id);
 
-            this.productService.Delete(id);
+            this._productService.Delete(id);
             return RedirectToAction("Index", new { Category = category });
         }
     }

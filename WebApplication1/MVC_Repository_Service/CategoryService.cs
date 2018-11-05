@@ -11,7 +11,13 @@ namespace MVC_Repository_Service
 {
     public class CategoryService : ICategoryService
     {
-        private IRepository<Categories> repository = new GenericRepository<Categories>();
+        //private IRepository<Categories> repository = new GenericRepository<Categories>();
+        private IRepository<Categories> _repository;
+
+        public CategoryService(IRepository<Categories> repository)
+        {
+            this._repository = repository;
+        }
 
         public IResult Create(Categories instance)
         {
@@ -23,7 +29,7 @@ namespace MVC_Repository_Service
             IResult result = new Result(false);
             try
             {
-                this.repository.Create(instance);
+                this._repository.Create(instance);
                 result.Success = true;
             }
             catch(Exception ex)
@@ -42,7 +48,7 @@ namespace MVC_Repository_Service
             IResult result = new Result(false);
             try
             {
-                this.repository.Update(instance);
+                this._repository.Update(instance);
                 result.Success = true;
             }
             catch (Exception ex)
@@ -58,7 +64,7 @@ namespace MVC_Repository_Service
 
             if(!this.IsExists(categoryID))
             {
-                result.Message = "找不到資料";
+                result.Message = "嚙賭不嚙踝蕭嚙踝蕭";
             }
             try
             {
@@ -73,18 +79,17 @@ namespace MVC_Repository_Service
 
         public bool IsExists(int categoryID)
         {
-            return this.repository.GetAll().Any(x => x.CategoryID == categoryID);
+            return this._repository.GetAll().Any(x => x.CategoryID == categoryID);
         }
 
         public Categories GetByID(int categoryID)
         {
-            return this.repository.Get(x => x.CategoryID == categoryID);
+            return this._repository.Get(x => x.CategoryID == categoryID);
         }
 
         public IEnumerable<Categories> GetAll()
         {
-            return this.repository.GetAll();
+            return this._repository.GetAll();
         }
     }
-    {
 }

@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="901d1714-c776-4dae-bcd4-0d1efefe89ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_Repository_Service/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_Repository_Service/MVC_Repository_Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MVC_Repository_Service/MVC_Repository_Service.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/MVC_Repository_Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/MVC_Repository_Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC_Repository_Service/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC_Repository_Service/CategoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC_Repository_Service/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC_Repository_Service/ProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/App_Start/UnityConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/App_Start/UnityConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Controllers/CategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/Global.asax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Global.asax.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -203,11 +204,11 @@
             <state relative-caret-position="68">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <marker date="1541324876164" expanded="true" signature="6:47" ph="..." />
-                <marker date="1541324876164" expanded="true" signature="86:619" ph="{...}" />
-                <marker date="1541324876164" expanded="true" signature="122:617" ph="{...}" />
-                <marker date="1541324876164" expanded="true" signature="409:442" ph="{...}" />
-                <marker date="1541324876164" expanded="true" signature="479:611" ph="{...}" />
+                <marker date="1541342660989" expanded="true" signature="6:47" ph="..." />
+                <marker date="1541342660989" expanded="true" signature="86:619" ph="{...}" />
+                <marker date="1541342660989" expanded="true" signature="122:617" ph="{...}" />
+                <marker date="1541342660989" expanded="true" signature="409:442" ph="{...}" />
+                <marker date="1541342660989" expanded="true" signature="479:611" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -216,11 +217,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MVC_Repository_Service/CategoryService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="1547">
+              <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
               <folding>
-                <marker date="1541324875956" expanded="true" signature="6:53" ph="..." />
-                <marker date="1541324875956" expanded="true" signature="87:243" ph="{...}" />
+                <marker date="1541411551831" expanded="true" signature="6:20" ph="..." />
+                <marker date="1541411551831" expanded="true" signature="2475:2480" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -304,9 +305,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
-    <option name="y" value="2" />
     <option name="width" value="1932" />
-    <option name="height" value="1045" />
+    <option name="height" value="1037" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -411,12 +411,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541258894027</updated>
       <workItem from="1541258898304" duration="5425000" />
-      <workItem from="1541322606340" duration="2269000" />
+      <workItem from="1541322606340" duration="2855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7694000" />
+    <option name="totallyTimeSpent" value="8280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,7 +428,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1932" height="1045" extended-state="1" />
+    <frame x="-7" y="0" width="1932" height="1037" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
@@ -730,11 +730,11 @@
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <marker date="1541324876164" expanded="true" signature="6:47" ph="..." />
-            <marker date="1541324876164" expanded="true" signature="86:619" ph="{...}" />
-            <marker date="1541324876164" expanded="true" signature="122:617" ph="{...}" />
-            <marker date="1541324876164" expanded="true" signature="409:442" ph="{...}" />
-            <marker date="1541324876164" expanded="true" signature="479:611" ph="{...}" />
+            <marker date="1541342660989" expanded="true" signature="6:47" ph="..." />
+            <marker date="1541342660989" expanded="true" signature="86:619" ph="{...}" />
+            <marker date="1541342660989" expanded="true" signature="122:617" ph="{...}" />
+            <marker date="1541342660989" expanded="true" signature="409:442" ph="{...}" />
+            <marker date="1541342660989" expanded="true" signature="479:611" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -753,11 +753,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC_Repository_Service/CategoryService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="1547">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
           <folding>
-            <marker date="1541324875956" expanded="true" signature="6:53" ph="..." />
-            <marker date="1541324875956" expanded="true" signature="87:243" ph="{...}" />
+            <marker date="1541411551831" expanded="true" signature="6:20" ph="..." />
+            <marker date="1541411551831" expanded="true" signature="2475:2480" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -13,7 +13,13 @@ namespace MVC_Repository_Service
 {
     public class ProductService : IProductService
     {
-        private IRepository<Products> repository = new GenericRepository<Products>();
+        //private IRepository<Products> repository = new GenericRepository<Products>();
+        private IRepository<Products> _repository;
+
+        public ProductService(IRepository<Products> repository)
+        {
+            this._repository = repository;
+        }
 
         public IResult Create(Products instance)
         {
@@ -24,7 +30,7 @@ namespace MVC_Repository_Service
             IResult result = new Result(false);
             try
             {
-                this.repository.Create(instance);
+                this._repository.Create(instance);
                 result.Success = true;
             }
             catch (Exception ex)
@@ -43,7 +49,7 @@ namespace MVC_Repository_Service
             IResult result = new Result(false);
             try
             {
-                this.repository.Update(instance);
+                this._repository.Update(instance);
             }
             catch (Exception ex)
             {
@@ -62,7 +68,7 @@ namespace MVC_Repository_Service
             try
             {
                 var instance = this.GetByID(productID);
-                this.repository.Delete(instance);
+                this._repository.Delete(instance);
                 result.Success = true;
             }
             catch (Exception ex)
@@ -79,17 +85,17 @@ namespace MVC_Repository_Service
 
         public IEnumerable<Products> GetByCategory(int categoryID)
         {
-            return this.repository.GetAll().Where(x => x.CategoryID == categoryID);
+            return this._repository.GetAll().Where(x => x.CategoryID == categoryID);
         }
 
         public Products GetByID(int productID)
         {
-            return this.repository.Get(x => x.ProductID == productID);
+            return this._repository.Get(x => x.ProductID == productID);
         }
 
         public bool IsExists(int productID)
         {
-            return this.repository.GetAll().Any(x => x.ProductID == productID);
+            return this._repository.GetAll().Any(x => x.ProductID == productID);
         }
 
     }
