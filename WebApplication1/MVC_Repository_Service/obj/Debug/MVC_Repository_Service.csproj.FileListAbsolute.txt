@@ -1,0 +1,13 @@
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\obj\Debug\MVC_Repository_Service.csprojAssemblyReference.cache
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\obj\Debug\MVC_Repository_Service.csproj.CoreCompileInputs.cache
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\bin\Debug\MVC_Repository_Service.dll
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\bin\Debug\MVC_Repository_Service.pdb
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\bin\Debug\MVC_Repository_Models.dll
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\bin\Debug\EntityFramework.dll
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\bin\Debug\MVC_Repository_Models.pdb
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\bin\Debug\MVC_Repository_Models.dll.config
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\bin\Debug\EntityFramework.xml
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\obj\Debug\MVC_Repository_Service.csproj.CopyComplete
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\obj\Debug\MVC_Repository_Service.dll
+C:\Users\Meng\Desktop\DTO_Service_repositoryPractice\WebApplication1\MVC_Repository_Service\obj\Debug\MVC_Repository_Service.pdb
