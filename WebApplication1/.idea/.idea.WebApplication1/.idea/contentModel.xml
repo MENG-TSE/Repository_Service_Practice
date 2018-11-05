@@ -141,7 +141,13 @@
             <e p="SendCode.cshtml" t="Include" />
             <e p="VerifyCode.cshtml" t="Include" />
           </e>
-          <e p="Category" t="Include" />
+          <e p="Category" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
           <e p="Home" t="Include">
             <e p="About.cshtml" t="Include" />
             <e p="Contact.cshtml" t="Include" />
@@ -155,7 +161,13 @@
             <e p="SetPassword.cshtml" t="Include" />
             <e p="VerifyPhoneNumber.cshtml" t="Include" />
           </e>
-          <e p="Product" t="Include" />
+          <e p="Product" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
             <e p="_LoginPartial.cshtml" t="Include" />
