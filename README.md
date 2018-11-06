@@ -1,4 +1,4 @@
-#Repository_Service_Practice
+#Repository_Service_Practice  參考資料: http://kevintsengtw.blogspot.com/2012/10/aspnet-mvc-part2-repository.html
 
 ![Model](/READNE用的圖片/0.PNG)
 
