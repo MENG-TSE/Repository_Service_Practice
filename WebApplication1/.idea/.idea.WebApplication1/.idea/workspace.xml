@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="901d1714-c776-4dae-bcd4-0d1efefe89ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_Repository_Service/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC_Repository_Service/CategoryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC_Repository_Service/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MVC_Repository_Service/ProductService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/App_Start/UnityConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/App_Start/UnityConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Controllers/CategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Controllers/ProductController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/Global.asax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/Global.asax.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/bin/MVC_Repository_Web.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/bin/MVC_Repository_Web.dll.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication1/obj/Debug/MVC_Repository_Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication1/obj/Debug/MVC_Repository_Web.csproj.FileListAbsolute.txt" afterDir="false" />
-    </list>
+    <list default="true" id="901d1714-c776-4dae-bcd4-0d1efefe89ad" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +24,7 @@
           <entry key="asax" value="1" />
           <entry key="config" value="1" />
           <entry key="cs" value="35" />
-          <entry key="cshtml" value="1" />
+          <entry key="cshtml" value="5" />
           <entry key="edmx" value="3" />
           <entry key="tt" value="2" />
         </counts>
@@ -46,7 +35,7 @@
           <entry key="C#" value="35" />
           <entry key="Config" value="3" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Razor" value="1" />
+          <entry key="Razor" value="5" />
           <entry key="T4 File" value="2" />
         </counts>
       </usages-collector>
@@ -66,56 +55,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebApplication1/App_Start/RouteConfig.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding>
-                <marker date="1541266589032" expanded="false" signature="6:47" ph="..." />
-                <marker date="1541266589032" expanded="true" signature="77:499" ph="{...}" />
-                <marker date="1541266589032" expanded="true" signature="108:497" ph="{...}" />
-                <marker date="1541266589032" expanded="true" signature="180:491" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebApplication1/App_Start/Startup.Auth.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding>
-                <marker date="1541259329586" expanded="false" signature="6:210" ph="..." />
-                <marker date="1541259329586" expanded="true" signature="275:2680" ph="{...}" />
-                <marker date="1541259329586" expanded="true" signature="406:2674" ph="{...}" />
-                <marker date="1541259329586" expanded="true" signature="739:851" ph="/* 讓應用程式使用 Cookie 儲存已登入使用者的資訊 ... */" />
-                <marker date="1541259329586" expanded="true" signature="936:1588" ph="{...}" />
-                <marker date="1541259329586" expanded="true" signature="1159:1574" ph="{...}" />
-                <marker date="1541259329586" expanded="true" signature="1181:1259" ph="/* 讓應用程式在使用者登入時驗證安全性戳記。 ... */" />
-                <marker date="1541259329586" expanded="true" signature="1860:1983" ph="/* 讓應用程式記住第二個登入驗證因素 (例如電話或電子郵件)。 ... */" />
-                <marker date="1541259329586" expanded="true" signature="2107:2664" ph="/* 註銷下列各行以啟用利用協力廠商登入提供者登入 ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebApplication1/App_Start/WebApiConfig.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-              <folding>
-                <marker date="1541266588992" expanded="true" signature="52:499" ph="{...}" />
-                <marker date="1541266588992" expanded="true" signature="91:497" ph="{...}" />
-                <marker date="1541266588992" expanded="true" signature="159:491" ph="{...}" />
-                <marker date="1541266588992" expanded="true" signature="182:225" ph="/* Web API 設定和服務 ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MVC_Repository_Service/Interface/ICategoryService.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -139,20 +78,6 @@
                 <marker date="1541324876054" expanded="true" signature="6:123" ph="..." />
                 <marker date="1541324876054" expanded="true" signature="167:531" ph="{...}" />
                 <marker date="1541324876054" expanded="true" signature="206:529" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MVC_Repository_Service/Misc/IResult.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <marker date="1541324876014" expanded="true" signature="6:47" ph="..." />
-                <marker date="1541324876014" expanded="true" signature="86:378" ph="{...}" />
-                <marker date="1541324876014" expanded="true" signature="181:376" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -207,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebApplication1/Controllers/CategoryController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-1619">
               <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding>
                 <marker date="1541414748634" expanded="true" signature="6:322" ph="..." />
@@ -241,7 +166,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebApplication1/Controllers/ProductController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -279,6 +204,94 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebApplication1/Views/Account/_ExternalLoginsListPartial.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <folding>
+                <marker date="1541259317852" expanded="true" signature="114:1038" ph="@..." />
+                <marker date="1541259317852" expanded="true" signature="253:473" ph="{...}" />
+                <marker date="1541259317852" expanded="true" signature="263:467" ph="&lt;div.../&gt;" />
+                <marker date="1541259317852" expanded="true" signature="281:452" ph="&lt;p.../&gt;" />
+                <marker date="1541259317852" expanded="true" signature="473:1036" ph="{...}" />
+                <marker date="1541259317852" expanded="true" signature="581:1030" ph="{...}" />
+                <marker date="1541259317852" expanded="true" signature="632:1020" ph="&lt;div.../&gt;" />
+                <marker date="1541259317852" expanded="true" signature="675:1001" ph="&lt;p.../&gt;" />
+                <marker date="1541259317852" expanded="true" signature="699:980" ph="@..." />
+                <marker date="1541259317852" expanded="true" signature="756:980" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebApplication1/Views/Account/ExternalLoginConfirmation.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1541259317849" expanded="true" signature="64:94" ph="@..." />
+                <marker date="1541259317849" expanded="true" signature="162:1113" ph="@..." />
+                <marker date="1541259317849" expanded="true" signature="332:1113" ph="{...}" />
+                <marker date="1541259317849" expanded="true" signature="468:605" ph="&lt;p.../&gt;" />
+                <marker date="1541259317849" expanded="true" signature="610:937" ph="&lt;div.../&gt;" />
+                <marker date="1541259317849" expanded="true" signature="723:926" ph="&lt;div.../&gt;" />
+                <marker date="1541259317849" expanded="true" signature="942:1111" ph="&lt;div.../&gt;" />
+                <marker date="1541259317849" expanded="true" signature="975:1100" ph="&lt;div.../&gt;" />
+                <marker date="1541259317849" expanded="true" signature="1115:1178" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebApplication1/Views/Category/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <marker date="1541418801739" expanded="true" signature="1058:1059" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebApplication1/Views/Product/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1541418459809" expanded="true" signature="53:86" ph="@..." />
+                <marker date="1541418459809" expanded="true" signature="104:157" ph="&lt;p.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="158:2145" ph="&lt;table.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="184:1025" ph="&lt;tr.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="197:276" ph="&lt;th.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="285:363" ph="&lt;th.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="372:455" ph="&lt;th.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="464:541" ph="&lt;th.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="550:630" ph="&lt;th.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="639:719" ph="&lt;th.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="728:808" ph="&lt;th.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="817:897" ph="&lt;th.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="906:997" ph="&lt;th.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="1027:2135" ph="@..." />
+                <marker date="1541418459809" expanded="true" signature="1056:2135" ph="{...}" />
+                <marker date="1541418459809" expanded="true" signature="1062:2133" ph="&lt;tr.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="1075:1153" ph="&lt;td.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="1162:1239" ph="&lt;td.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="1248:1330" ph="&lt;td.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="1339:1415" ph="&lt;td.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="1424:1503" ph="&lt;td.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="1512:1591" ph="&lt;td.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="1600:1679" ph="&lt;td.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="1688:1767" ph="&lt;td.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="1776:1866" ph="&lt;td.../&gt;" />
+                <marker date="1541418459809" expanded="true" signature="1875:2123" ph="&lt;td.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -295,11 +308,13 @@
     <setting file="file://$PROJECT_DIR$/WebApplication1/App_Start/Startup.Auth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication1/App_Start/FilterConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication1/App_Start/BundleConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication1/Views/Product/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication1/Global.asax" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication1/App_Start/WebApiConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication1/App_Start/RouteConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication1/App_Start/IdentityConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MVC_Repository_Service/CategoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication1/Views/Category/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication1/Global.asax.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MVC_Repository_Service/Misc/Result.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MVC_Repository_Service/Misc/IResult.cs" root0="FORCE_HIGHLIGHTING" />
@@ -313,6 +328,7 @@
     <setting file="file://$PROJECT_DIR$/MVC_Repository_Service/Interface/IProductService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MVC_Repository_Service/Interface/ICategoryService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MVC_Repository_Models/Model1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication1/Views/Account/ExternalLoginConfirmation.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication1/Views/Account/_ExternalLoginsListPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -346,6 +362,7 @@
         <option value="$PROJECT_DIR$/MVC_Repository_Service/CategoryService.cs" />
         <option value="$PROJECT_DIR$/WebApplication1/Controllers/CategoryController.cs" />
         <option value="$PROJECT_DIR$/WebApplication1/Controllers/ProductController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication1/Views/Category/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -355,7 +372,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="width" value="1932" />
     <option name="height" value="1037" />
@@ -411,6 +428,32 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="WebApplication1" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MVC_Repository_Web" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WebApplication1" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MVC_Repository_Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WebApplication1" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MVC_Repository_Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WebApplication1" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MVC_Repository_Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Category" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WebApplication1" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MVC_Repository_Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Product" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -468,12 +511,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541258894027</updated>
       <workItem from="1541258898304" duration="5425000" />
-      <workItem from="1541322606340" duration="3527000" />
+      <workItem from="1541322606340" duration="4216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8952000" />
+    <option name="totallyTimeSpent" value="9641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,7 +528,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1932" height="1037" extended-state="0" />
+    <frame x="-7" y="0" width="1932" height="1037" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -579,9 +623,6 @@
           <caret line="286" selection-start-line="286" selection-end-line="286" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebApplication1/Views/Account/_ExternalLoginsListPartial.cshtml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MVC_Repository_Models/AccountViewModels.cs" />
     <entry file="file://$PROJECT_DIR$/MVC_Repository_Models/Model1.Context.cs">
@@ -823,7 +864,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebApplication1/Controllers/CategoryController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-1619">
           <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding>
             <marker date="1541414748634" expanded="true" signature="6:322" ph="..." />
@@ -888,6 +929,86 @@
             <marker date="1541418318023" expanded="true" signature="5421:5796" ph="{...}" />
             <marker date="1541418318023" expanded="true" signature="5685:5752" ph="{...}" />
             <marker date="1541418318023" expanded="true" signature="5941:6232" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApplication1/Views/Account/_ExternalLoginsListPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <marker date="1541259317852" expanded="true" signature="114:1038" ph="@..." />
+            <marker date="1541259317852" expanded="true" signature="253:473" ph="{...}" />
+            <marker date="1541259317852" expanded="true" signature="263:467" ph="&lt;div.../&gt;" />
+            <marker date="1541259317852" expanded="true" signature="281:452" ph="&lt;p.../&gt;" />
+            <marker date="1541259317852" expanded="true" signature="473:1036" ph="{...}" />
+            <marker date="1541259317852" expanded="true" signature="581:1030" ph="{...}" />
+            <marker date="1541259317852" expanded="true" signature="632:1020" ph="&lt;div.../&gt;" />
+            <marker date="1541259317852" expanded="true" signature="675:1001" ph="&lt;p.../&gt;" />
+            <marker date="1541259317852" expanded="true" signature="699:980" ph="@..." />
+            <marker date="1541259317852" expanded="true" signature="756:980" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApplication1/Views/Account/ExternalLoginConfirmation.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541259317849" expanded="true" signature="64:94" ph="@..." />
+            <marker date="1541259317849" expanded="true" signature="162:1113" ph="@..." />
+            <marker date="1541259317849" expanded="true" signature="332:1113" ph="{...}" />
+            <marker date="1541259317849" expanded="true" signature="468:605" ph="&lt;p.../&gt;" />
+            <marker date="1541259317849" expanded="true" signature="610:937" ph="&lt;div.../&gt;" />
+            <marker date="1541259317849" expanded="true" signature="723:926" ph="&lt;div.../&gt;" />
+            <marker date="1541259317849" expanded="true" signature="942:1111" ph="&lt;div.../&gt;" />
+            <marker date="1541259317849" expanded="true" signature="975:1100" ph="&lt;div.../&gt;" />
+            <marker date="1541259317849" expanded="true" signature="1115:1178" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApplication1/Views/Product/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1541418459809" expanded="true" signature="53:86" ph="@..." />
+            <marker date="1541418459809" expanded="true" signature="104:157" ph="&lt;p.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="158:2145" ph="&lt;table.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="184:1025" ph="&lt;tr.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="197:276" ph="&lt;th.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="285:363" ph="&lt;th.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="372:455" ph="&lt;th.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="464:541" ph="&lt;th.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="550:630" ph="&lt;th.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="639:719" ph="&lt;th.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="728:808" ph="&lt;th.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="817:897" ph="&lt;th.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="906:997" ph="&lt;th.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="1027:2135" ph="@..." />
+            <marker date="1541418459809" expanded="true" signature="1056:2135" ph="{...}" />
+            <marker date="1541418459809" expanded="true" signature="1062:2133" ph="&lt;tr.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="1075:1153" ph="&lt;td.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="1162:1239" ph="&lt;td.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="1248:1330" ph="&lt;td.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="1339:1415" ph="&lt;td.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="1424:1503" ph="&lt;td.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="1512:1591" ph="&lt;td.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="1600:1679" ph="&lt;td.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="1688:1767" ph="&lt;td.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="1776:1866" ph="&lt;td.../&gt;" />
+            <marker date="1541418459809" expanded="true" signature="1875:2123" ph="&lt;td.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApplication1/Views/Category/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1541418801739" expanded="true" signature="1058:1059" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>
