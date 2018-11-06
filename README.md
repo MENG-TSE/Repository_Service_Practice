@@ -1,5 +1,7 @@
 #Repository_Service_Practice
 
+![Model](/READNE用的圖片/0.PNG)
+
 #Part1 & Part2  沒有Commit，但行為相當簡單可以看以下的圖，看他的進化史，以下都用Category為例子，Product就不闡述了
 
 #Part1 
@@ -7,6 +9,8 @@
        在Controller中使用interface類別來操作資料，把原本的Controller中的資料存取程式搬移到Repository中       
        兩個Controller中的方法都沒有直接對資料庫進行資料操作，而是透過Repository類別來進行資料的存取，在Controller就不在需要考慮到資料庫的存取操作，
        只需要考慮流程控制與資料的正確與否。
+       
+ ![Part1](/READNE用的圖片/Part1.PNG)
 
       
 
@@ -15,20 +19,20 @@
     利用[泛型]將共同的部分給抽離出來另外建立IRepository介面、GenericRepository，改用這兩個來做資料的存取
     讓ICategoryRepository去繼承IRepository<Categories>
     
-    
+ ![Part2](/READNE用的圖片/2.PNG)
 #Part3 非每一個類別的資料操作都是相同的，不是建立一個 GenericRepository 就可以滿足所有的需求，當各個類別有不同的資料存取需求時，應該怎麼做呢？
 
       把 Controller 中使用 GenericRepository<T> 的地方修改為使用各類別的 Repository
 
 
 
-
+![Part3](/READNE用的圖片/3.PNG)
 
 
 #Part4  抽出 Model 層並建立為類別庫專案
 
 
-
+![Part4](/READNE用的圖片/4.PNG)
 
 
 #Part5 建立Service層
@@ -52,7 +56,9 @@
 
         Service 與 Models 的關聯在於 controller 使用 Models 的 Respository 來對資料進行存取操作.
 
-
+![5](/READNE用的圖片/5.PNG)
+![5](/READNE用的圖片/-1.PNG)
+![5](/READNE用的圖片/5-2.PNG)
 
 #Part6 DI/IoC 使用 Unity.MVC
 
